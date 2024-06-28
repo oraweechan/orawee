@@ -7,3 +7,18 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  font-family: "Montserrat", sans-serif;
+  color: #141414;
+}
+
+@layer utilities {
+  .common-padding {
+    @apply sm:py-32 py-20 sm:px-10 px-5;
+  }
+
+  .title-font {
+    font-family: "Archivo", sans-serif;
+  }
+}
